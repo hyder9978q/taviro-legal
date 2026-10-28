@@ -57,12 +57,15 @@ section[lang="en"] ul { padding-right:0; padding-left:1.2em; }
 بالعراق، وما بيها أي بيانات شخصية. كل منصة عندها سياستها
 الخاصة بالبيانات التي تجمعها هي عن المشاهدين، وهي خارج سيطرتنا.</p>
 
+<h2 id="youtube">غوغل ويوتيوب</h2>
+<ul><li>تاڤيرو يستخدم خدمات YouTube API. استخدامه يعني الالتزام بـ <a href="https://www.youtube.com/t/terms">شروط خدمة YouTube</a>، وتنطبق عليه <a href="https://policies.google.com/privacy">سياسة خصوصية Google</a>.</li><li>استخدام المعلومات الواردة من واجهات Google ونقلها يلتزم بـ <a href="https://developers.google.com/terms/api-services-user-data-policy">سياسة بيانات مستخدمي خدمات Google API</a>، ومنها شروط الاستخدام المحدود.</li><li>تقدر تسحب الصلاحية بأي وقت من <a href="https://myaccount.google.com/permissions">صفحة صلاحيات حساب Google</a>. عندها يبطل رمز الدخول المخزّن فوراً، ويحذفه المالك من اللابتوب بأمر واحد (<code>taviro vault-delete YOUTUBE_REFRESH_TOKEN</code>)، وأي طلب حذف يُرسل للتواصل أدناه يُنفَّذ خلال 30 يوم (<a href="data-deletion.html">حذف البيانات</a>).</li></ul>
+
 <h2>مشاركة البيانات</h2>
 <p>لا نبيع البيانات ولا نشاركها. البيانات الوحيدة اللي تغادر اللابتوب هي
 الفيديو ونصه، وهي تذهب للمنصة التي يُنشر عليها.</p>
 
 <h2>الحقوق والحذف</h2>
-<p>المالك يقدر يفصل أي حساب بأي وقت، وعندها تُحذف رموز الدخول فوراً.
+<p>المالك يقدر يفصل أي حساب بأي وقت، وعندها يبطل رمز دخوله فوراً، ويحذفه من اللابتوب بأمر واحد.
 تفاصيل الحذف في <a href="data-deletion.html">صفحة حذف البيانات</a>.</p>
 
 <h2>الأطفال</h2>
@@ -93,13 +96,13 @@ permissions needed to publish to the owner's own accounts. We read no counts or
 other data from these platforms beyond what publishing returns; the owner enters
 post counts by hand. The one exception is YouTube's public most-popular chart for
 Iraq, read with an API key, which contains no personal data.</p>
-<h2>Google and YouTube</h2>
-<ul><li>Taviro uses YouTube API Services. By using Taviro you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> applies.</li><li>Taviro's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</li><li>Access can be revoked at any time from the <a href="https://security.google.com/settings/security/permissions">Google security settings page</a>; the stored token is then useless and is deleted.</li></ul>
+<h2 id="youtube-en">Google and YouTube</h2>
+<ul><li>Taviro uses YouTube API Services. By using Taviro you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> applies.</li><li>Taviro's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</li><li>Access can be revoked at any time from the <a href="https://myaccount.google.com/permissions">Google Account permissions page</a>. The stored token stops working at once; the owner deletes it from the laptop with one command (<code>taviro vault-delete YOUTUBE_REFRESH_TOKEN</code>), and any deletion request sent to the contact below is done within 30 days (<a href="data-deletion.html#en">data deletion</a>).</li></ul>
 <h2>Sharing</h2>
 <p>We do not sell or share data. The only data that leaves the laptop is each
 video and its caption, sent to the platform it is published on.</p>
 <h2>Your rights and deletion</h2>
-<p>The owner can disconnect any account at any time, which deletes its token.
+<p>The owner can disconnect any account at any time: its token stops working at once, and the owner deletes it from the laptop with one command.
 See the <a href="data-deletion.html#en">data deletion page</a>.</p>
 <h2>Children</h2>
 <p>The service is not directed at children under 13 and collects no data about them.</p>
